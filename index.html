@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/bf208e9523.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/mike_logo.png" type="image/x-icon">
+
 </head>
 
 <body class="hidden">
@@ -15,7 +16,7 @@
         <span class="loader"></span>
     </div>
 
-    <a href="" class="btn__whattsapp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://wa.me/qr/DNUKP2BS2ORAH1" class="btn__whattsapp"><i class="fa-brands fa-whatsapp"></i></a>
     <nav class="navbar">
         <a href="" class="logo"><img src="img/mike_logo.png" alt=""></a>
         <input type="checkbox" name="" id="toggler">
@@ -26,8 +27,8 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Mike Barber</a></li>
                 <li><a href="#services">Servicios</a></li>
-                <li><a href="#notices">Blog</a></li>
-                <li><a href="#contactme">Contacto</a></li>
+                <li><a href="#notices">Noticias</a></li>
+                <li><a href="https://wa.me/qr/DNUKP2BS2ORAH1">Contacto</a></li>
                 <div class="icons__nav">
                     <a href="https://www.facebook.com/michael.venegassolano"><i class="fa-brands fa-facebook"></i></a>
                     <a href=""><i class="fa-brands fa-whatsapp"></i></a>
@@ -38,7 +39,7 @@
     </nav>
     <div class="portada">
         <div class="portada_img">
-            <img src="img/portada2.jpg" alt="" srcset="">
+            <img class="portada__mike" src="img/portada2.jpg" alt="" srcset="">
             <div class="informacion_portada">
                 <img src="img/mike_logo.png" alt="">
                 <h1>Si necesitas servicio de Barberia<br>Estas en el lugar correcto</br></h1>
@@ -90,8 +91,9 @@
     <main>
         <div class="container__main">
             <div class="mikebarber">
-                <div class="title__mike">
+                <div class="title__mike services">
                     <h1>SOBRE MÍ</h1>
+                    <hr>
                     <p>¿Quién soy?</p>
                 </div>
                 <div class="container__mikebarber">
@@ -130,10 +132,41 @@
                 </div>
             </div>
         </div>
+        <div class="container_cuts">
+            <div class="cuts_mike">
+                <div class="title__mike services">
+                    <h1>Cortes</h1>
+                    <hr>
+                    <img src="img/mike_logo2.png" alt="">
+                </div>
+                <div class="slider_cuts">
+                    <div class="slider">
+                        <div class="images">
+                            <input type="radio" name="slide" id="img1" checked>
+                            <input type="radio" name="slide" id="img2">
+                            <input type="radio" name="slide" id="img3">
+                            <input type="radio" name="slide" id="img4">
+                
+                            <img src="img/slider1.jpg" class="m1" alt="img1">
+                            <img src="img/slider2.jpg" class="m2" alt="img2">
+                            <img src="img/slider3.jpg" class="m3" alt="img3">
+                            <img src="img/slider1.jpg" class="m4" alt="img4">
+                        </div>
+                        <div class="dots">
+                            <label for="img1"></label>
+                            <label for="img2"></label>
+                            <label for="img3"></label>
+                            <label for="img4"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container__services">
             <div class="services__mike">
                 <div class="title__mike services">
                     <h1>SERVICIOS</h1>
+                    <hr>
                     <img src="img/mike_logo2.png" alt="">
 
                 </div>
@@ -166,6 +199,17 @@
                     <img src="img/mike_logo2.png" alt="">
                 </div>
             </div>
+        </div>
+
+        <div class="container__contact">
+<div class="contact__mike">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31440.45703337294!2d-84.1263947298342!3d9.9292003710272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e352b0967f5b%3A0x5060994c96c84ca0!2sSabana%20Sur%2C%20San%20Jos%C3%A9!5e0!3m2!1ses!2scr!4v1703560122820!5m2!1ses!2scr" z-index="-1" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="window__contact">
+    <h1>CONTACTO</h1>
+    <li><i class="fa-solid fa-phone"></i> + 506 8888-6666</li>
+    <li></li>
+</div>
+</div>
         </div>
     </main>
     <footer class="pie-pagina">
@@ -214,6 +258,8 @@
         }
 
     </script>
+    <script src="app.js"></script>
+
 </body>
 
 </html>
